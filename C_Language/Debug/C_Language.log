@@ -1,0 +1,121 @@
+﻿  0강 선택.cpp
+C:\Users\sejong\source\repos\c언어\18강 다차원 배열과 포인터.c(15,9): warning C4477:  'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\sejong\source\repos\c언어\18강 다차원 배열과 포인터.c(15,9): warning C4477:  'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int (*)[2]'입니다.
+C:\Users\sejong\source\repos\c언어\20강 도전 프로그래밍3.c(107,6): warning C4101:  'i' :참조되지 않은 지역 변수입니다.
+C:\Users\sejong\source\repos\c언어\23-0강 구조체와 typedef 선언.c(7,6): warning C4101:  'a' :참조되지 않은 지역 변수입니다.
+C:\Users\sejong\source\repos\c언어\23-0강 구조체와 typedef 선언.c(7,6): warning C4101: C:\Users\sejong\source\repos\c언어\9-0강 함수 지역함수.c(40) : warning C4715: 'big': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\sejong\source\repos\c언어\23-0강 구조체와 typedef 선언.c(7,6): warning C4101: C:\Users\sejong\source\repos\c언어\9-0강 함수 지역함수.c(75) : warning C4715: 'small': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\sejong\source\repos\c언어\23-0강 구조체와 typedef 선언.c(7,6): warning C4101: C:\Users\sejong\source\repos\c언어\19강 함수 포인터와 void포인터.c(21) : warning C4715: 'match': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\sejong\source\repos\c언어\23-0강 구조체와 typedef 선언.c(7,6): warning C4101: C:\Users\sejong\source\repos\c언어\9-2강 재귀함수.c(9) : warning C4715: 'recursive': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  1-0강 기초.c
+  10강 도전 프로그래밍2.c
+C:\Users\sejong\source\repos\c언어\1-0강 기초.c(5,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\10강 도전 프로그래밍2.c(7,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\10강 도전 프로그래밍2.c(8,9): warning C4013:  'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  11-0강 배열.c
+C:\Users\sejong\source\repos\c언어\10강 도전 프로그래밍2.c(55,9): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\11-0강 배열.c(9,9): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  11-1강 문자열.c
+C:\Users\sejong\source\repos\c언어\11-0강 배열.c(10,10): warning C4013:  'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\11-1강 문자열.c(39,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  12강 포인터.c
+C:\Users\sejong\source\repos\c언어\11-1강 문자열.c(40,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  13-0강 포인터와 배열.c
+C:\Users\sejong\source\repos\c언어\12강 포인터.c(6,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  13-1강 포인터와 문자열.c
+C:\Users\sejong\source\repos\c언어\13-0강 포인터와 배열.c(23,9): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  13-2강 포인터배열.c
+C:\Users\sejong\source\repos\c언어\13-1강 포인터와 문자열.c(5,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  14-0강 포인터와 함수.c
+C:\Users\sejong\source\repos\c언어\13-2강 포인터배열.c(14,9): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  15강 도전 프로그래밍.c
+C:\Users\sejong\source\repos\c언어\14-0강 포인터와 함수.c(22,9): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\15강 도전 프로그래밍.c(102,9): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  16강 다차원 배열.c
+C:\Users\sejong\source\repos\c언어\15강 도전 프로그래밍.c(103,8): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  17강 포인터의 포인터.c
+C:\Users\sejong\source\repos\c언어\16강 다차원 배열.c(46,10): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  18강 다차원 배열과 포인터.c
+C:\Users\sejong\source\repos\c언어\17강 포인터의 포인터.c(27,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  19강 함수 포인터와 void포인터.c
+C:\Users\sejong\source\repos\c언어\18강 다차원 배열과 포인터.c(15,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\19강 함수 포인터와 void포인터.c(4,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  20강 도전 프로그래밍3.c
+C:\Users\sejong\source\repos\c언어\19강 함수 포인터와 void포인터.c(33,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\20강 도전 프로그래밍3.c(19,11): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\20강 도전 프로그래밍3.c(52,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  21-0강 문자 단위 입출력 련함수.c
+  21-1강 문자열 단위 입출력 함수.c
+  21-2강 입출력 버퍼.c
+  21-3강 문자열 관련함수.c
+  22-0강 구조체.c
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  22-1강 구조체 배열.c
+C:\Users\sejong\source\repos\c언어\20강 도전 프로그래밍3.c(107,6): warning C4101:  'i' :참조되지 않은 지역 변수입니다.
+C:\Users\sejong\source\repos\c언어\20강 도전 프로그래밍3.c(107,6): warning C4101: C:\Users\sejong\source\repos\c언어\19강 함수 포인터와 void포인터.c(21) : warning C4715: 'match': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\sejong\source\repos\c언어\22-1강 구조체 배열.c(16,9): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  22-2강 구조체 포인터.c
+C:\Users\sejong\source\repos\c언어\22-1강 구조체 배열.c(17,8): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  23-0강 구조체와 typedef 선언.c
+C:\Users\sejong\source\repos\c언어\22-2강 구조체 포인터.c(44,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  23-1강 구조체 함수.c
+C:\Users\sejong\source\repos\c언어\23-0강 구조체와 typedef 선언.c(7,6): warning C4101:  'a' :참조되지 않은 지역 변수입니다.
+  23-2강 공용체.c
+C:\Users\sejong\source\repos\c언어\23-1강 구조체 함수.c(11,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  23-3강 구조체 포인터.c
+C:\Users\sejong\source\repos\c언어\23-2강 공용체.c(12,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  23-4강 열거형.c
+  24-0강 파일 입출력.c
+  25-0강 힙영역.c
+  26-0강 매크로와 선행처리기.c
+C:\Users\sejong\source\repos\c언어\23-3강 구조체 포인터.c(21,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  26-1강 조건부 컴파일.c
+C:\Users\sejong\source\repos\c언어\26-0강 매크로와 선행처리기.c(8,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  26-2강 매크로의 매개변수 치환.C
+  27-0강 헤더파일과 분할.c
+C:\Users\sejong\source\repos\c언어\26-1강 조건부 컴파일.c(7,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\27강 헤더파일과 분할.h(1,1): warning C4067:  전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  3-0강 변수와 연산자.c
+C:\Users\sejong\source\repos\c언어\27강 헤더파일과 분할.h(9,2): warning C4091:  'typedef ': 변수를 선언하지 않으면 'ADD' 왼쪽은 무시됩니다.
+C:\Users\sejong\source\repos\c언어\3-0강 변수와 연산자.c(5,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  4-0강 데이터 표현방식.c
+C:\Users\sejong\source\repos\c언어\3-0강 변수와 연산자.c(15,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  5-0강 정수 실수 자료형.c
+C:\Users\sejong\source\repos\c언어\4-0강 데이터 표현방식.c(11,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\5-0강 정수 실수 자료형.c(6,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  5-1강 자료형 변환.c
+  5-2강 아스키 코드.c
+C:\Users\sejong\source\repos\c언어\5-0강 정수 실수 자료형.c(16,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  5-3강 상수.c
+  6강 scanf함수와 printf함수.c
+C:\Users\sejong\source\repos\c언어\5-2강 아스키 코드.c(5,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\6강 scanf함수와 printf함수.c(4,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  7-0강 while문.c
+C:\Users\sejong\source\repos\c언어\6강 scanf함수와 printf함수.c(12,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  7-1강 do while문.c
+C:\Users\sejong\source\repos\c언어\7-0강 while문.c(78,10): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  7-2강 for문.c
+C:\Users\sejong\source\repos\c언어\7-1강 do while문.c(9,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\7-2강 for문.c(4,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  8-0강 if문.c
+C:\Users\sejong\source\repos\c언어\7-2강 for문.c(5,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\8-0강 if문.c(50,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  8-1강 continue문 break문.c
+C:\Users\sejong\source\repos\c언어\8-0강 if문.c(51,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  8-2강 switch문.c
+C:\Users\sejong\source\repos\c언어\8-1강 continue문 break문.c(30,10): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\8-2강 switch문.c(4,7): warning C4013:  'scanf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  9-0강 함수 지역함수.c
+  9-1강 전역함수 static함수.c
+C:\Users\sejong\source\repos\c언어\8-2강 switch문.c(8,9): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  9-2강 재귀함수.c
+C:\Users\sejong\source\repos\c언어\9-1강 전역함수 static함수.c(8,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다...
+C:\Users\sejong\source\repos\c언어\9-2강 재귀함수.c(7,8): warning C4013:  'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\sejong\source\repos\c언어\9-2강 재귀함수.c(7,8): warning C4013: C:\Users\sejong\source\repos\c언어\9-2강 재귀함수.c(9) : warning C4715: 'recursive': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\sejong\source\repos\c언어\9-2강 재귀함수.c(7,8): warning C4013: C:\Users\sejong\source\repos\c언어\9-0강 함수 지역함수.c(40) : warning C4715: 'big': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\sejong\source\repos\c언어\9-2강 재귀함수.c(7,8): warning C4013: C:\Users\sejong\source\repos\c언어\9-0강 함수 지역함수.c(75) : warning C4715: 'small': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  C_Language.vcxproj -> C:\Users\sejong\source\repos\C_Language\Debug\C_Language.exe
