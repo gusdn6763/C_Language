@@ -3,8 +3,8 @@
 
 int main23()
 {
-	typedef int INT;
-	INT a;     //int a
+	//typedef int INT;
+	//INT a;     //int a
 
 
 	struct point

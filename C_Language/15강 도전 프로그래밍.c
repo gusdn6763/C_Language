@@ -1,12 +1,12 @@
 /*
 int hole(int *arr)
 {
-	printf("\n홀수출력");
+	printf("\n홀수출력:");
 	for (int i = 0; i < 10; i++)
 	{
 		if (arr[i] % 2 == 1 || arr[i] == 1)
 		{
-			printf(", %d", arr[i]);
+			printf("%d, ", arr[i]);
 		}
 	}
 	return 0;
@@ -19,7 +19,7 @@ int jax(int *arr)
 	{
 		if (arr[i] % 2 == 0)
 		{
-			printf(", %d", arr[i]);
+			printf("%d, ", arr[i]);
 		}
 	}
 	return 0;
@@ -45,38 +45,63 @@ int main15()           //도전1
 }
 */
 
-/*
-int main15()        // 도전3
+//도전2 못 품
+//배열을 이딴식으로 쓸 방법을 생각도 못함
+
+
+// 도전3, 5
+void Sort(int *parem,int count)
 {
-	int arr1[10], arr2[10], i = 0, j = 0;
-	for (i=0; i < 10; i++)
+	for (int i = 0; i < count-1; i++)
 	{
-		printf("입력:");
-		scanf("%d", &arr1[i]);
-		if (arr1[i] <= 0)
+		for (int j = 0;j< count - 1 - i; j++)
 		{
-			printf("다시입력:");
-			scanf("%d", &arr1[i]);
-		}
-		if (arr1[i] % 2 == 1 || arr1[i] == 1)
-		{
-			arr2[j] = arr1[i];
-			j++;
+			if (parem[j] > parem[j + 1])
+			{
+				int tmp = parem[j];
+				parem[j] = parem[j + 1];
+				parem[j + 1] = tmp;
+			}
 		}
 	}
 
-	for (i=0;i<10;i++)
+	for (int i = 0; i < count; i++)
 	{
-		if (arr1[i] % 2 == 0)
+		printf("%d, ",parem[i]);
+	}
+}
+
+int main15()        
+{
+	int num, arr1[10], arr2[10], i = 0, j = 0, k = 0;
+	for (i=0; i < 10; i++)
+	{
+		printf("입력:");
+		scanf("%d", &num);
+		if (num <= 0)
 		{
-			arr2[j] = arr1[i];
+			printf("다시입력:");
+			scanf("%d", &num);
+		}
+		if (num % 2 == 1 || arr1[i] == 1)
+		{
+			arr1[k] = num;
+			k++;
+		}
+		else
+		{
+			arr2[j] = num;
 			j++;
 		}
-		printf("%d, ", arr2[i]);
 	}
+	printf("배열 출력");
+	Sort(arr1, k);
+	Sort(arr2, j);
+
 	return 0;
 }
-*/
+
+/*
 int DesSort(int* arr,int size)
 {
 	int i, j,temp;
@@ -109,4 +134,5 @@ int main15()
 	}
 	return 0;
 }
+*/
 

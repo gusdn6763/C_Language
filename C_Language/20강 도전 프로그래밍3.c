@@ -104,7 +104,7 @@ int test34()
 int test35()
 {
 	srand((int)time(NULL));
-	int i, num;
+	int num;
 	int win=0, mu=0;
 
 	for (;;)

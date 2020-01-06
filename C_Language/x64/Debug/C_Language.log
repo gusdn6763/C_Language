@@ -1,0 +1,11 @@
+﻿  0강 선택.cpp
+C:\Users\tj-bu\source\repos\C_Language\C_Language\18강 다차원 배열과 포인터.c(15,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\tj-bu\source\repos\C_Language\C_Language\18강 다차원 배열과 포인터.c(15,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 1('int *' 형식)과(와) 충돌합니다.
+C:\Users\tj-bu\source\repos\C_Language\C_Language\18강 다차원 배열과 포인터.c(15,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int (*)[2]'입니다.
+C:\Users\tj-bu\source\repos\C_Language\C_Language\18강 다차원 배열과 포인터.c(15,9): warning C4313: 'printf': 서식 문자열의 '%d'이(가) 인수 2('int (*)[2]' 형식)과(와) 충돌합니다.
+C:\Users\tj-bu\source\repos\C_Language\C_Language\21-3강 문자열 관련함수.c(7,24): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tj-bu\source\repos\C_Language\C_Language\9-0강 함수 지역함수.c(40): warning C4715: 'big': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\tj-bu\source\repos\C_Language\C_Language\9-0강 함수 지역함수.c(75): warning C4715: 'small': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\tj-bu\source\repos\C_Language\C_Language\9-2강 재귀함수.c(9): warning C4715: 'recursive': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\tj-bu\source\repos\C_Language\C_Language\19강 함수 포인터와 void포인터.c(21): warning C4715: 'match': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  C_Language.vcxproj -> C:\Users\tj-bu\source\repos\C_Language\x64\Debug\C_Language.exe

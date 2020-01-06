@@ -53,277 +53,285 @@ extern void ClearLineFromReadBuffer();    //외부에 함수가 선언 및 정의됨
 #include "26-1강 조건부 컴파일.c"
 #include "26-2강 매크로의 매개변수 치환.c"
 
-
 int main()
 {
+	int chooseChapter = 0;
 
+	printf("챕터입력:");
 
-	int num1=0, num3;
-	printf("값입력:");
-	scanf_s("%d", &num1);
-	if (num1 == 1)
+	scanf_s("%d", &chooseChapter);
+
+	if (chooseChapter == 1)
 	{
 		main1();
 	}
-	else if (num1 == 3)
+	else if (chooseChapter == 3)
 	{
 		main3();
 	}
-	else if (num1 == 4)
+	else if (chooseChapter == 4)
 	{
 		main4();
 	}
-	else if (num1 == 5)
+	else if (chooseChapter == 5)
 	{
+		int chooseChapterNumber;
 		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 0)
+		scanf_s("%d", &chooseChapterNumber);
+		if (chooseChapterNumber == 0)
 		{
 			main5();
 		}
-		if (num3 == 1)
+		if (chooseChapterNumber == 1)
 		{
 			main51();
 		}
-		if (num3 == 2)
+		if (chooseChapterNumber == 2)
 		{
 			main52();
 		}
-		if (num3 == 3)
+		if (chooseChapterNumber == 3)
 		{
 			main53();
 		}
 	}
-	else if (num1 == 6)
+	else if (chooseChapter == 6)
 	{
-			main6();
+		main6();
 	}
-	else if (num1 == 7)
+	else if (chooseChapter == 7)
 	{
+		int chooseChapterNumber;
 		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 0)
+		scanf_s("%d", &chooseChapterNumber);
+		if (chooseChapterNumber == 0)
 		{
 			main7();
 		}
-		if (num3 == 1)
+		if (chooseChapterNumber == 1)
 		{
 			main71();
 		}
-		if (num3 == 2)
+		if (chooseChapterNumber == 2)
 		{
 			main72();
 		}
 	}
-	else if (num1 == 8)
+	else if (chooseChapter == 8)
 	{
+		int chooseChapterNumber;
 		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 0)
+		scanf_s("%d", &chooseChapterNumber);
+		if (chooseChapterNumber == 0)
 		{
 			main8();
 		}
-		if (num3 == 1)
+		if (chooseChapterNumber == 1)
 		{
 			main81();
 		}
-		if (num3 == 2)
+		if (chooseChapterNumber == 2)
 		{
 			main82();
 		}
 	}
-	else if (num1 == 9)
+	else if (chooseChapter == 9)
 	{
+		int chooseChapterNumber;
 		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 0)
+		scanf_s("%d", &chooseChapterNumber);
+		if (chooseChapterNumber == 0)
 		{
 			main9();
 		}
-		if (num3 == 1)
+		if (chooseChapterNumber == 1)
 		{
 			main91();
 		}
-		if (num3 == 2)
+		if (chooseChapterNumber == 2)
 		{
 			main92();
 		}
 	}
-	else if (num1 == 10)
+	else if (chooseChapter == 10)
 	{
+		int chooseChapterNumber;
 		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 2)
+		scanf_s("%d", &chooseChapterNumber);
+		if (chooseChapterNumber == 2)
 		{
 			test2();
 		}
-		if (num3 == 3)
+		if (chooseChapterNumber == 3)
 		{
 			test3();
 		}
-		if (num3 == 4)
+		if (chooseChapterNumber == 4)
 		{
 			test4();
 		}
-		if (num3 == 5)
+		if (chooseChapterNumber == 5)
 		{
 			test5();
 		}
-		if (num3 == 6)
+		if (chooseChapterNumber == 6)
 		{
 			test6();
 		}
-		if (num3 == 8)
+		if (chooseChapterNumber == 8)
 		{
 			test8();
 		}
 	}
-	else if (num1 == 11)
+	else if (chooseChapter == 11)
 	{
-	printf("값입력:");
-	scanf_s("%d", &num3);
-	if (num3 == 0)
-	{
-		main11();
-	}
-	if (num3 == 1)
-	{
-		main111();
-	}
-	}
-	else if (num1 == 12)
-	{
-	main12();
-	}
-	else if (num1 == 13)
-	{
+		int chooseChapterNumber;
 		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 0)
+		scanf_s("%d", &chooseChapterNumber);
+		if (chooseChapterNumber == 0)
 		{
-			main13();
+			main11();
 		}
-		if (num3 == 1)
+		if (chooseChapterNumber == 1)
 		{
-			main131();
-		}
-		if (num3 == 2)
-		{
-			main132();
+			main111();
 		}
 	}
+	else if (chooseChapter == 12)
+	{
+		main12();
+	}
+	else if (chooseChapter == 13)
+		{
+			int chooseChapterNumber;
+			printf("값입력:");
+			scanf_s("%d", &chooseChapterNumber);
+			if (chooseChapterNumber == 0)
+			{
+				main13();
+			}
+			if (chooseChapterNumber == 1)
+			{
+				main131();
+			}
+			if (chooseChapterNumber == 2)
+			{
+				main132();
+			}
+		}
+	else if (chooseChapter == 14)
+		{
+			main14();
+		}
+	else if (chooseChapter == 15)
+		{
+			main15();
+		}
+	else if (chooseChapter == 16)
+		{
+			main16();
+		}
+	else if (chooseChapter == 17)
+		{
+			main17();
+		}
+	else if (chooseChapter == 18)
+		{
+			main18();
+		}
+	else if (chooseChapter == 19)
+		{
+			main19();
+		}
+	else if (chooseChapter == 20)
+		{
+			int chooseChapterNumber;
+			printf("값입력:");
+			scanf_s("%d", &chooseChapterNumber);
+			if (chooseChapterNumber == 1)
+			{
+				test31();
+			}
+			if (chooseChapterNumber == 2)
+			{
+				test32();
+			}
+			if (chooseChapterNumber == 4)
+			{
+				test34();
+			}
+			if (chooseChapterNumber == 5)
+			{
+				test35();
+			}
+		}
+	else if (chooseChapter == 21)
+		{
+			int chooseChapterNumber;
+			printf("값입력:");
+			scanf_s("%d", &chooseChapterNumber);
+			if (chooseChapterNumber == 0)
+			{
+				main21();
+			}
+			if (chooseChapterNumber == 1)
+			{
+				main211();
+			}
+			if (chooseChapterNumber == 2)
+			{
+				main212();
+			}
+			if (chooseChapterNumber == 3)
+			{
+				main213();
+			}
+		}
+	else if (chooseChapter == 22)
+		{
+			int chooseChapterNumber;
+			printf("값입력:");
+			scanf_s("%d", &chooseChapterNumber);
+			if (chooseChapterNumber == 0)
+			{
+				main22();
+			}
+			if (chooseChapterNumber == 1)
+			{
+				main221();
+			}
+			if (chooseChapterNumber == 2)
+			{
+				main222();
+			}
+		}
+	else if (chooseChapter == 23)
+		{
+			int chooseChapterNumber;
 
-	else if (num1 == 14)
-	{
-		main14();
-	}
+			printf("값입력:");
 
-	else if (num1 == 15)
-	{
-	main15();
-	}
+			scanf_s("%d", &chooseChapterNumber);
+			if (chooseChapterNumber == 0)
+			{
+				main23();
+			}
+			if (chooseChapterNumber == 1)
+			{
+				main231();
+			}
+			if (chooseChapterNumber == 2)
+			{
+				main232();
+			}
 
-	else if (num1 == 16)
-	{
-	main16();
-	}
-
-	else if (num1 == 17)
-	{
-	main17();
-	}
-
-	else if (num1 == 18)
-	{
-	main18();
-	}
-	else if (num1 == 19)
-	{
-	main19();
-	}
-	else if (num1 == 20)
-	{
-		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 1)
-		{
-			test31();
+			if (chooseChapterNumber == 3)
+			{
+				main233();
+			}
 		}
-		if (num3 == 2)
+	else if (chooseChapter == 24)
 		{
-			test32();
+			main24();
 		}
-		if (num3 == 4)
-		{
-			test34();
-		}
-		if (num3 == 5)
-		{
-			test35();
-		}
-	}
-	else if (num1 == 21)
-	{
-		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 0)
-		{
-			main21();
-		}
-		if (num3 == 1)
-		{
-			main211();
-		}
-		if (num3 == 2)
-		{
-			main212();
-		}
-		if (num3 == 3)
-		{
-			main213();
-		}
-	}
-	else if (num1 == 22)
-	{
-		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 0)
-		{
-			main22();
-		}
-		if (num3 == 1)
-		{
-			main221();
-		}
-		if (num3 == 2)
-		{
-			main222();
-		}
-	}
-	else if (num1 == 23)
-	{
-		printf("값입력:");
-		scanf_s("%d", &num3);
-		if (num3 == 0)
-		{
-			main23();
-		}
-		if (num3 == 1)
-		{
-			main231();
-		}
-		if (num3 == 2)
-		{
-			main232();
-		}
-
-		if (num3 == 3)
-		{
-			main233();
-		}
-	}
-	else if (num1 == 24)
-	{
-	main24();
-	}
 }

@@ -1,6 +1,7 @@
 
 int gugu(int num1,int num2);
 int jungsu(int num1);
+
 int test2()       //문제2
 {
 	int num1, num2;
@@ -11,7 +12,13 @@ int test2()       //문제2
 }
 int gugu(int num1,int num2)	
 {
-	num1>num2 ? num1 : num2;
+	if (num1 > num2)
+	{
+		int tmp = num1;
+		num1 = num2;
+		num2 = tmp;
+	}
+	num1 > num2 ? num1 : num2;
 	for (; num1 <= num2;num1++)
 	{
 		for (int i = 1; i < 10; i++)
@@ -27,7 +34,13 @@ int test3()   //문제3
 	int num1, num2, i;
 	printf("최대공약수 2개입력:");
 	scanf_s("%d %d", &num1, &num2);
-	num1 > num2 ? num1 : num2;
+
+	if (num1 > num2)
+	{
+		int tmp = num1;
+		num1 = num2;
+		num2 = tmp;
+	}
 
 	for (i=num2-1;i>0;i--)
 	{
